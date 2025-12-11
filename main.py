@@ -69,9 +69,9 @@ def monteCarloPlotSecond(df, bins):
 def main():
     sim_results = []
     winrate = int(input("Pass your winrate in %: "))
-    rr = int(input("Pass in your Risk to Reward ratio 1:"))
-    starting_capital = int(input("Input your starting capital in usd$: "))
-    risk_amount = int(input("Input your risk amount in % of your account: "))
+    rr = float(input("Pass in your Risk to Reward ratio 1:"))
+    starting_capital = float(input("Input your starting capital in usd$: "))
+    risk_amount = float(input("Input your risk amount in % of your account: "))
     days_to_simulate = int(input("How many days would you like to simulate?: "))
     num_of_simulations = int(input("how many times would you like to simulate?: "))
     bins = int(input("How many bins on the barchart?: "))
